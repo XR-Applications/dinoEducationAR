@@ -12,7 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3919d29160402124daa5aca49139d8c0, type: 3}
   m_Name: brontoInfo
   m_EditorClassIdentifier: 
-  backGroundImage: {fileID: 0}
-  tite: 
-  details: 
-  linkToWiki: 
+  backGroundImage: {fileID: 21300000, guid: 3aabfda29330d2941b06431055817b04, type: 3}
+  tite: Brontosaurus
+  details: 'Evidence suggests that a Brontosaurus could have weighed between 17-24
+    US tons (16,000-22,000 kg), making it one of the largest dinosaurs to walk the
+    earth.
+
+    
+
+    As these are predictions based on the length of bones discovered,
+    it is possible that some could have even weighed more.
+
+    
+
+    It would
+    have stood around 15 feet (4.6 m) tall and 70-90 feet (21-27 m) in length.'
+  linkToWiki: https://en.wikipedia.org/wiki/Brontosaurus

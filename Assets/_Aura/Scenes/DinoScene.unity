@@ -25572,6 +25572,7 @@ GameObject:
   - component: {fileID: 1267826533}
   - component: {fileID: 1267826532}
   - component: {fileID: 1267826531}
+  - component: {fileID: 1267826535}
   m_Layer: 5
   m_Name: DinoInfoUI
   m_TagString: Untagged
@@ -25663,6 +25664,22 @@ RectTransform:
   m_AnchoredPosition: {x: 15.180691, y: 9.412152}
   m_SizeDelta: {x: 1920, y: 1148.2}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1267826535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267826530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 247c2322d7721b040b79816412b98728, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Background: {fileID: 0}
+  m_Title: {fileID: 0}
+  m_Description: {fileID: 0}
+  m_LinkToWikiButton: {fileID: 0}
 --- !u!1 &1330696243
 GameObject:
   m_ObjectHideFlags: 0
@@ -27956,11 +27973,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8296172667723281910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67277577c2d308c47a9d38e233996766, type: 3}
+  m_Script: {fileID: 11500000, guid: 01b5c03ebd1b52a4aa64ecd5ab7d103e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InfoUI: {fileID: 1267826530}
   m_DinoAnimator: {fileID: 1501294230}
+  m_DinoInfo: {fileID: 0}
 --- !u!4 &8386406936845493882
 Transform:
   m_ObjectHideFlags: 0

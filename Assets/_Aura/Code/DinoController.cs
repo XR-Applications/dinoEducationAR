@@ -7,15 +7,16 @@ using UnityEngine;
 /// and to camera track events
 /// as well as instantiation events
 /// </summary>
-public class DinoController : MonoBehaviour
+public abstract class DinoController : MonoBehaviour
 {
-    [SerializeField] GameObject m_InfoUI;
-    [SerializeField] Animator m_DinoAnimator;
-    private void Start()
+    [SerializeField] protected GameObject m_InfoUI;
+    [SerializeField] protected Animator m_DinoAnimator;
+    [SerializeField] protected DinoInfoUI m_DinoInfo;
+    protected virtual void Start()
     {
         m_InfoUI.SetActive(false);
     }
-    private void OnMouseDown()
+    protected virtual void OnMouseDown()
     {
         m_InfoUI.SetActive(!m_InfoUI.activeSelf);   
     }
